@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="css/main.css" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
 </head>
 
 
@@ -40,18 +43,18 @@
 
                 <div class="row">
                     <!-- profile picture div-->
-                    <div class="col-4">
+                    <div class="col-12 col-xl-4">
                         <span class="image fit"><img src="resources\IMG_5601.jpg" alt=""
                                 style="width: 200px; height: 200px;"></span>
                     </div>
                     <!-- introduction contant div -->
-                    <div class="col-8">
+                    <div class="col-12 col-xl-8">
                         <header>
                             <h1>Hi. I'm <strong>Ritesh Ranjan</strong>.</h1>
                         </header>
                         <p>And this is my <strong>Portfolio</strong>.</p>
                         <a href="" class="button scrolly">View Full Resume</a>
-                        <a href="#proficiencies" class="button large scrolly">View My Proficiencies</a>
+                        <!-- <a href="#proficiencies" class="button large scrolly">View My Proficiencies</a> -->
                     </div>
 
                 </div>
@@ -64,11 +67,11 @@
         <div class="row wrapper style2" id="proficiencies">
             <div class="container">
                 <header>
-                    <h2>Here's some of my proficiencies.</h2>
+                    <h1>Here's some of my proficiencies.</h1>
                 </header>
                 <!-- Cards of Proficiencies * 4 -->
                 <div class="row prof_card">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 my-5">
 
                         <img src="resources/prof_logo/prof-react-logo.png" class="card-img-top" alt="...">
                         <h5 class="card-title">React Apps</h5>
@@ -76,7 +79,7 @@
 
 
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 my-5">
 
                         <img src="resources/prof_logo/prof-frontend-logo.png" class="card-img-top" alt="...">
                         <h5 class="card-title">Backend</h5>
@@ -85,7 +88,7 @@
 
 
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 my-5">
 
                         <img src="resources/prof_logo/prof-backend-logo.png" class="card-img-top" alt="...">
                         <h5 class="card-title">Frontend</h5>
@@ -93,7 +96,7 @@
 
 
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 my-5">
 
                         <img src="resources/prof_logo/prof-ds-logo.png" class="card-img-top" alt="...">
                         <h5 class="card-title">Data Structures</h5>
@@ -108,35 +111,35 @@
 
                 <!-- row of tech stack -->
                 <div class="row tech_stack_card">
-                    <div class="col-3 col-xl-2">
+                    <div class="col-3 col-xl-2 my-5">
                         <img src="resources\svg\html-5.svg" alt="">
                     </div>
 
-                    <div class="col-3 col-xl-2">
+                    <div class="col-3 col-xl-2 my-5">
                         <img src="resources\svg\css-3.svg" alt="">
                     </div>
 
-                    <div class="col-3 col-xl-2">
+                    <div class="col-3 col-xl-2 my-5">
                         <img src="resources\svg\javascript.svg" alt="">
                     </div>
 
-                    <div class="col-3 col-xl-2">
+                    <div class="col-3 col-xl-2 my-5">
                         <img src="resources\svg\bootstrap.svg" alt="">
                     </div>
 
-                    <div class="col-3 col-xl-2">
+                    <div class="col-3 col-xl-2 my-5">
                         <img src="resources\svg\react.svg" alt="">
                     </div>
 
-                    <div class="col-3 col-xl-2">
+                    <div class="col-3 col-xl-2 my-5">
                         <img src="resources\svg\python.svg" alt="">
                     </div>
 
-                    <div class="col-3 col-xl-2 offset-xl-4">
+                    <div class="col-3 col-xl-2 offset-xl-4 my-5">
                         <img src="resources\svg\flask.svg" alt="">
                     </div>
 
-                    <div class="col-3 col-xl-2">
+                    <div class="col-3 col-xl-2 my-5">
                         <img src="resources\svg\kafka-icon.svg" alt="">
                     </div>
 
@@ -159,40 +162,70 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4 mb-5">
                         <div class="card">
-                            <img src="resources//project_img/pic00.jpg" class="card-img-top" alt="...">
+                            <img src="resources//project_img/pic05.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
                                 <hr>
+
                                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Home</a>
+                                        <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#project1_tech"
+                                            role="tab" aria-controls="tech" aria-selected="true">Tech Stack Used</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                        <a class="nav-link" id="key-tab" data-toggle="tab" href="#project1_key"
+                                            role="tab" aria-controls="key" aria-selected="false">Key Features</a>
                                     </li>
                                 </ul>
+
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">...</div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">...</div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab">...</div>
+                                    <div class="tab-pane fade show active" id="project1_tech" role="tabpanel"
+                                        aria-labelledby="tech-tab">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="resources\svg\html-5.svg" alt="html_logo">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="project1_key" role="tabpanel"
+                                        aria-labelledby="key-tab">
+                                    
+                                    </div>
                                 </div>
+
                                 <hr>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="button view"><i class="fas fa-desktop"></i> View Demo</a>
+                                <a href="#" class="button code"><i class="fas fa-code"></i> View Code</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4 mb-5">
                         <div class="card">
-                            <img src="resources//project_img/pic01.jpg" class="card-img-top" alt="...">
+                            <img src="resources//project_img/pic04.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
@@ -200,25 +233,54 @@
                                 <hr>
                                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Home</a>
+                                        <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#project2_tech"
+                                            role="tab" aria-controls="tech" aria-selected="true">Tech Stack Used</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                        <a class="nav-link" id="key-tab" data-toggle="tab" href="#project2_key"
+                                            role="tab" aria-controls="key" aria-selected="false">Key Features</a>
                                     </li>
                                 </ul>
+
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">...</div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">...</div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab">...</div>
+                                    <div class="tab-pane fade show active" id="project2_tech" role="tabpanel"
+                                        aria-labelledby="tech-tab">
+
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="tab-pane fade" id="project2_key" role="tabpanel"
+                                        aria-labelledby="key-tab">key</div>
                                 </div>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="button view"><i class="fas fa-desktop"></i> View Demo</a>
+                                <a href="#" class="button code"><i class="fas fa-code"></i> View Code</a>
                             </div>
                         </div>
                     </div>
@@ -233,25 +295,52 @@
                                 <hr>
                                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Home</a>
+                                        <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#project3_tech"
+                                            role="tab" aria-controls="tech" aria-selected="true">Tech Stack Used</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                        <a class="nav-link" id="key-tab" data-toggle="tab" href="#project3_key"
+                                            role="tab" aria-controls="key" aria-selected="false">Key Features</a>
                                     </li>
                                 </ul>
+
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">...</div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">...</div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab">...</div>
+                                    <div class="tab-pane fade show active" id="project3_tech" role="tabpanel"
+                                        aria-labelledby="tech-tab">
+
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="project3_key" role="tabpanel"
+                                        aria-labelledby="key-tab">key</div>
                                 </div>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="button view"><i class="fas fa-desktop"></i> View Demo</a>
+                                <a href="#" class="button code"><i class="fas fa-code"></i> View Code</a>
                             </div>
                         </div>
                     </div>
@@ -266,30 +355,57 @@
                                 <hr>
                                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Home</a>
+                                        <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#project4_tech"
+                                            role="tab" aria-controls="tech" aria-selected="true">Tech Stack Used</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                        <a class="nav-link" id="key-tab" data-toggle="tab" href="#project4_key"
+                                            role="tab" aria-controls="key" aria-selected="false">Key Features</a>
                                     </li>
                                 </ul>
+
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">...</div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">...</div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab">...</div>
+                                    <div class="tab-pane fade show active" id="project4_tech" role="tabpanel"
+                                        aria-labelledby="tech-tab">
+
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="project4_key" role="tabpanel"
+                                        aria-labelledby="key-tab">key</div>
                                 </div>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="button view"><i class="fas fa-desktop"></i> View Demo</a>
+                                <a href="#" class="button code"><i class="fas fa-code"></i> View Code</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5">
                         <div class="card">
                             <img src="resources//project_img/pic04.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -299,30 +415,56 @@
                                 <hr>
                                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Home</a>
+                                        <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#project5_tech"
+                                            role="tab" aria-controls="tech" aria-selected="true">Tech Stack Used</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                        <a class="nav-link" id="key-tab" data-toggle="tab" href="#project5_key"
+                                            role="tab" aria-controls="key" aria-selected="false">Key Features</a>
                                     </li>
                                 </ul>
+
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">...</div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">...</div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab">...</div>
+                                    <div class="tab-pane fade show active" id="project5_tech" role="tabpanel"
+                                        aria-labelledby="tech-tab">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="project5_key" role="tabpanel"
+                                        aria-labelledby="key-tab">key</div>
                                 </div>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="button view"><i class="fas fa-desktop"></i> View Demo</a>
+                                <a href="#" class="button code"><i class="fas fa-code"></i> View Code</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="card">
                             <img src="resources//project_img/pic05.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -332,25 +474,51 @@
                                 <hr>
                                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Home</a>
+                                        <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#project6_tech"
+                                            role="tab" aria-controls="tech" aria-selected="true">Tech Stack Used</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                        <a class="nav-link" id="key-tab" data-toggle="tab" href="#project6_key"
+                                            role="tab" aria-controls="key" aria-selected="false">Key Features</a>
                                     </li>
                                 </ul>
+
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">...</div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">...</div>
-                                    <div class="tab-pane fade" id="contact" role="tabpanel"
-                                        aria-labelledby="contact-tab">...</div>
+                                    <div class="tab-pane fade show active" id="project6_tech" role="tabpanel"
+                                        aria-labelledby="tech-tab">
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="resources\svg\html-5.svg" alt="html_logo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="project6_key" role="tabpanel"
+                                        aria-labelledby="key-tab">key</div>
                                 </div>
                                 <hr>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="button view"><i class="fas fa-desktop"></i> View Demo</a>
+                                <a href="#" class="button code"><i class="fas fa-code"></i> View Code</a>
                             </div>
                         </div>
                     </div>
@@ -460,27 +628,16 @@
                         <hr>
                         <h3>Find me on ...</h3>
                         <ul class="social">
-                            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+                            <li><a href="#" class="fab fa-twitter"></a></li>
+                            <li><a href="#" class="fab fa-facebook-f"></a>
                             </li>
-                            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                            <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>
+                            <li><a href="#" class="fab fa-linkedin-in"></a>
                             </li>
-                            <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-                            <li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a>
+                            <li><a href="#" class="fab fa-google-plus"></a>
                             </li>
-                            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                            <!--
-                            <li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-                            <li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-                            <li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-                            <li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-                            <li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-                            <li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-                            <li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-                            <li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-                            <li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-                            -->
+                            <li><a href="#" class="fab fa-github"></a></li>
+                            <li><a href="#" class="fab fa-instagram"></a></li>
+                            <li><a href="#" class="fab fa-youtube"></a></li>
                         </ul>
                         <hr>
                     </div>
@@ -499,7 +656,15 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.scrolly.min.js"></script>
