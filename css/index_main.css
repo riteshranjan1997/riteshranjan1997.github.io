@@ -950,6 +950,11 @@ input, select, textarea {
 	text-align: center;
 }
 
+.project_discription{
+	height: 100px;
+	margin-bottom: 0px;
+}
+
 .tech_stack_card{
 	text-align: center;
 }
